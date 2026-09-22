@@ -17,13 +17,7 @@ Front-end em React para a atividade de cadastro com busca de endereço via ViaCE
 
 ## Rodar
 
-```bash
+```
 npm install
 npm run dev
 ```
-
-## Observação
-
-O back-end Node/Express e o MySQL não fazem parte deste projeto, conforme solicitado. A listagem usa `localStorage` somente para a demonstração visual do front-end. Quando o back-end estiver pronto, a parte de `guests` pode ser trocada pelas chamadas `fetch` para a API do sistema.
-
-A consulta de CEP usa o fluxo solicitado pela atividade: validar o formato no front-end e consultar a ViaCEP somente depois da validação.
